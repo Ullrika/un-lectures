@@ -1,0 +1,45 @@
+# Using expert judgement {#expert}
+
+How to use expert judgement in scientific assessment. Stand alone chapter
+
+## Intro
+
+- When is expert judgement needed
+- Who is an expert
+- Wisdom of the crowds
+
+Exercise where they judge the time it takes to drive between X and Y using best guess, lower and upper bound
+
+## Expert knowledge elicitation
+
+### EKE of an individual expert
+
+- “Ways to elicit a probability distribution for a parameter” (requires probability theory)
+
+### EKE of multiple experts
+
+- Protocols and methods to aggregate expert judgements
+- Delphi method and others (Cook, Sheffield, IDEA protocol
+
+## Application - Risk ranking of hazards with multiple experts  
+
+Exercise - do an IDEA or Delphi method - IVETTE provides some input here
+
+Short lecture - Introduce subjective risk assessment (i.e. using expert judgement only on semi-quantitative scores)
+
+- List hazards
+- Constructing scales for subjective risk assessment 
+- Semi-quantitative risk assessment 
+- NEED CODE TO RUN THE ASSESSMENT - SRA program i got from Mark needs to be replaced
+
+## Biases and Heuristics
+
+From the application we hopefully identify some things to bring up in this lecture 
+
+Verbal expressions of uncertainty - different interpretations
+
+## Extra - how to combine expert judgement and data
+
+Bayesian updating
+
+ 

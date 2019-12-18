@@ -1,0 +1,51 @@
+# Probabilistic uncertainty analysis {#probab}
+
+Need follow introduction to uncertainty analysis)
+
+Recap:  “Subjective Probability as a measure of epistemic uncertainty”
+
+## Introduction to probability theory 
+
+- Probability axioms
+- Probability calculus (events)
+- Probability distributions (discrete and continuous variables)
+- These concepts can be introduced with an example. 
+
+## Propagation of uncertainty 
+
+- Monte Carlo 2D
+- Exercise - very simple problem with one parameter (intensity) generating a count (Poisson) - then we have both epistemic and aleatory
+- General rules of conduct in MCsim: seeds, Number of samples/iterations, separation of aleatory and epistemic
+- Ways to communicate and interpret the results from the MC
+- Exercise - the simple example again
+- Optional - add decision alternatives resulting in different intensities
+- Exercise - daily intake equation three variables
+- General rules of conduct in MCsim: Dependencies between distributions,
+- What happens if we use point estimates of parameters - MC 1D
+- Exercise - run the two exercises again using point estimates of parameters (expected values or MAP/mode)
+- MC is not quantification - but how to go from data to distribution
+
+## Quantification of uncertainty
+
+Working with probability distributions 
+
+- Data: a sample from X, probability that X is less than x, first and second moment of X 
+- Fitting distribution to data using Maximum Likelihood, Method of Moments, Quantiles
+- If we would use this on data which is a sample from a variable in the assessment this approach will result in point estimates of parameters (i.e. epistemic uncertainty not quantified by probability) - we have to use something that informs us about the parameter as well
+- Optional - This is used in e.g. EKE, to assign a prior
+
+The Bayesian approach to quantify uncertainty 
+
+- Build up a model linking parameters to data - What is the data generating process - what distribution is data a sample of
+- Specifying probability distributions on parameters before seeing the data (prior)
+- Fitting a distribution using Bayesian learning - results in a probability distribution on parameters 
+- Bayesian updating using Bayes rule
+- Conjugate models, MCMC sampling (very overviewish)
+
+Exercise - the simple example with the Poisson count where they explore Bayesian inference - with a large sample size and a small sample size, conjugate priors. Compare with e.g. ML. Conjugate or MCMC sampling (find some Bayesian package that works fine or JAGs)
+
+Exercise - daily intact equation with data or expert judgement available. Possible dependence between intake and bodyweight. Conjugate or MCMC sampling. 
+
+Optional Exercise - Quantifying uncertainty in a Population Viability Analysis 
+
+- They have some data, they have a population model, they have different management alternatives and scenarios

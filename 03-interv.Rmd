@@ -1,0 +1,27 @@
+# Intervals and probability bounds {#interv}
+
+Requires 1 and 2
+
+## Interval as a measure of uncertainty
+
+- Types of uncertainty intervals: Interval, probability interval, confidence interval
+- Interval to separate epistemic from aleatory (frequency for aleatory, interval for epistemic)
+- Interval to consider weakness in knowledge as first and second order measure of uncertainty (interval probability, imprecise probability)
+
+## Interval analysis 
+
+- Interval arithmetic
+- Exercise - daily intake dose equation
+
+## Probability bound analysis
+
+- Calculus with bounded probability 
+- Introduction to a probability box
+- Calculus with pboxes
+- Exercise - daily intake dose equation
+
+## Probability vs interval or probability bounds analysis
+
+Discussion about the pros/cons, limits/possibilities 
+
+Exercise (Optional) – compare to the probabilistic uncertainty analysis in 2

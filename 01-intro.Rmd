@@ -1,0 +1,19 @@
+# Introduction to Uncertainty Analysis {#intro}
+
+## What is uncertainty and why is it important? 
+
+- Type of uncertainty: Epistemic,  aleatory and other types
+- Parameter/variable link to epistemic and aleatory uncertainty
+- Exercise - toss a coin, throw a dice - show communication of direct uncertainty
+- Exercise - example of a decision problem where one has different strengths in background knowledge -> need to also communicate indirect 
+
+## Communication of uncertainty 
+
+- Examples of graphs and tables and verbal expressions and quantitative measures (probability, probability distribution, uncertainty interval,..., confidence)
+
+## Uncertainty analysis
+
+- “A method to provide input to communicate uncertainty”
+- Different measures and methods 
+- Why probability is a good way to describe epistemic uncertainty
+- Standards/guidelines
